@@ -31,6 +31,10 @@ apt-get -y update
 apt-get -y install curl sudo vim
 echo "成功更新软件并安装常用软件"
 
+echo "alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'" >> /root/.bashrc
+
 echo "一切就绪，服务器马上将要重启一次
 重启后即可在您的SSH客户端连接本服务器并使用"
 
