@@ -24,7 +24,7 @@ deb https://security.debian.org/debian-security bullseye-security main contrib n
 echo "软件源更换成功"
 
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-echo "成功用户登录开启"
+echo "用户登录开启成功"
 
 echo "更新软件，并安装常用软件"
 apt-get -y update
